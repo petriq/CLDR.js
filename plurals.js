@@ -163,7 +163,8 @@
 
   defineLanguageRule([ 'cs', 'sk' ], function(n) {
     if ( n === 1 ) { return One; }
-    if ( isAmong(n, [ 2, 3, 4 ]) ) { return Few; }
+    if (isAmong(n, [2, 3, 4])) { return Few; }
+    if (n % 1 === 0) { return Many;}
     return Other;
   });
 

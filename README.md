@@ -1,7 +1,3 @@
-## CLOSED
-
-**This project is no longer maintained**
-
 ## CLDR.js
 
 CLDR.js provides logic from the
